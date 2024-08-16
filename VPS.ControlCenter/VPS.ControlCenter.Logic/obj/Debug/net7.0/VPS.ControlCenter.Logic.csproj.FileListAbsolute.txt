@@ -1,0 +1,16 @@
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\bin\Debug\net7.0\VPS.ControlCenter.Logic.deps.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\bin\Debug\net7.0\VPS.ControlCenter.Logic.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\bin\Debug\net7.0\VPS.ControlCenter.Logic.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\bin\Debug\net7.0\VPS.ControlCenter.Core.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\bin\Debug\net7.0\VPS.ControlCenter.Core.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.csproj.AssemblyReference.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.AssemblyInfoInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.AssemblyInfo.cs
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.sourcelink.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\refint\VPS.ControlCenter.Logic.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.ControlCenter.Logic.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\ref\VPS.ControlCenter.Logic.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Logic\obj\Debug\net7.0\VPS.Cont.F7A2BA8F.Up2Date

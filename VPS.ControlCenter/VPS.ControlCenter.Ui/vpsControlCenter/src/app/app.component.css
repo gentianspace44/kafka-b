@@ -1,0 +1,15 @@
+.container{
+    padding: 10px 50px;
+}
+.menu-bar a{
+    margin: 0 5px;
+}
+.black{
+    background-color: black;
+}
+.fg-white{
+    color: white;
+}
+.purple{
+    background-color: purple;
+}

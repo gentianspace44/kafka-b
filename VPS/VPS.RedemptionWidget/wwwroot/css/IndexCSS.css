@@ -1,0 +1,129 @@
+﻿/* styles.css */
+
+.btn-provider {
+    position: relative;
+}
+
+.btn-provider-icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
+
+.btn-provider-icon-active img {
+    height: 10px;
+}
+
+.btn-provider-icon-active {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+}
+
+.btn-provider.selected-provider {
+    border: 1px solid #800080 !important;
+}
+
+.btn-img {
+    margin-top: 5px !important;
+}
+
+#spinner {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.loader {
+    width: 19px;
+    height: 19px;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mt-4, .my-4 {
+    background-color: #825AD9;
+    text-align: center;
+    padding-block: 60px;
+    margin-left: -25px;
+    margin-right: -18px;
+    margin-top: -18px !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.close-button {
+    border: none;
+    position: absolute;
+    right: -4px;
+    top: -21px;
+    background-color: transparent;
+    font-size: 45px;
+    color: #5C2D91;
+}
+
+    .close-button:hover {
+        color: black;
+        outline: none;
+    }
+
+
+
+.modal-open .modal {
+    background: transparent;
+    opacity: 1;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.provider-container .modal-content {
+    padding: 43px;
+    padding-right: 55px;
+    margin-bottom: 54px;
+    margin-top: 14px;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 23px;
+    max-height: 46.5rem;
+    overflow: scroll;
+    /* Hiding scrollbar for IE, Edge and Firefox */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+    .modal-body::-webkit-scrollbar {
+        display: none;
+    }
+
+
+.btnProviderWeb:hover {
+    background-color: #633d94 !important;
+    cursor: pointer;
+}
+
+.btnProviderWeb.active {
+    background-color: #633d94 !important;
+}
+#btnSubmit {
+    height: max-content;
+}

@@ -1,0 +1,50 @@
+
+<div class="mat-elevation-z8 container">
+
+
+    <button mat-raised-button color="primary" (click)="saveAll()">Save All</button>
+      
+    <div class="grid-container">
+        <div *ngFor="let element of data" class="grid-item">
+          <mat-card class="mat-card">
+            <mat-card-content>
+              
+              <mat-form-field class="mat-large-col">
+                <mat-label>Title</mat-label>
+                <input matInput [(ngModel)]="element.title">
+              </mat-form-field>
+
+              <!-- Message -->
+              <mat-form-field class="mat-large-col">
+                <mat-label>Message</mat-label>
+                <textarea matInput [(ngModel)]="element.message" rows="5"></textarea>
+              </mat-form-field>
+      <br />
+              <!-- Order -->
+              <mat-form-field class="mat-large-col">
+                <mat-label>Order of display</mat-label>
+                <input matInput [(ngModel)]="element.order">
+              </mat-form-field>
+              
+          <mat-checkbox [(ngModel)]="element.isVisible">Show on Voucher Redemption Widget</mat-checkbox>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button (click)="remove(element)">Remove</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </div>
+      
+      <div class="grid-item">
+        <mat-card class="mat-card">
+          <mat-card-content>
+            <!-- Message -->
+
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button (click)="addNew()">Add New</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    

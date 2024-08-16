@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SwSssXT8VzdUnm4rox/pAbs9IO/TPfC7mJWe+m8QErA=",
+  "Source": "VPS.Provider.RACellularVoucher",
+  "BasePath": "_content/VPS.Provider.RACellularVoucher",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

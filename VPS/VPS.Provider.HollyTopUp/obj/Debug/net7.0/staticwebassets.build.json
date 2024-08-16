@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cDczwrZHnqcoaW2/d9EWKHUIfEEiihgdFzns6LVOPOs=",
+  "Source": "VPS.Provider.HollyTopUp",
+  "BasePath": "_content/VPS.Provider.HollyTopUp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

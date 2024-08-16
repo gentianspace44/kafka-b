@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4a9cc2e9-2e99-409d-abfa-5bc32d7f238d</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\**" />
+    <Compile Remove="Filters\**" />
+    <Compile Remove="Logic\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Validation\**" />
+    <Compile Remove="Vrw.Models\**" />
+    <Content Remove="Common\**" />
+    <Content Remove="Filters\**" />
+    <Content Remove="Logic\**" />
+    <Content Remove="Models\**" />
+    <Content Remove="Validation\**" />
+    <Content Remove="Vrw.Models\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <EmbeddedResource Remove="Filters\**" />
+    <EmbeddedResource Remove="Logic\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Validation\**" />
+    <EmbeddedResource Remove="Vrw.Models\**" />
+    <None Remove="Common\**" />
+    <None Remove="Filters\**" />
+    <None Remove="Logic\**" />
+    <None Remove="Models\**" />
+    <None Remove="Validation\**" />
+    <None Remove="Vrw.Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Index1.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.10">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="7.0.0">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.16" />
+	  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+	  <PackageReference Include="prometheus-net.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VPS.API\VPS.API.csproj" />
+    <ProjectReference Include="..\VPS.Domain\VPS.Domain.csproj" />
+    <ProjectReference Include="..\VPS.Services\VPS.Services.csproj" />
+  </ItemGroup>
+
+</Project>

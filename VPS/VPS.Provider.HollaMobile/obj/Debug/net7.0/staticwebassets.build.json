@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IrfiynudMIZr9415MkqYzR6hswPN85yDUkMxATtBjEU=",
+  "Source": "VPS.Provider.HollaMobile",
+  "BasePath": "_content/VPS.Provider.HollaMobile",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

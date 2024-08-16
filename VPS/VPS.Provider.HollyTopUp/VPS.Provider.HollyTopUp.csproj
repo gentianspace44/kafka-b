@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6c8739e4-2303-495e-942b-14b7dff55a21</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VPS.API\VPS.API.csproj" />
+    <ProjectReference Include="..\VPS.Domain\VPS.Domain.csproj" />
+    <ProjectReference Include="..\VPS.Helpers\VPS.Helpers.csproj" />
+    <ProjectReference Include="..\VPS.Infrastructure\VPS.Infrastructure.csproj" />
+    <ProjectReference Include="..\VPS.Services\VPS.Services.csproj" />
+  </ItemGroup>
+
+</Project>

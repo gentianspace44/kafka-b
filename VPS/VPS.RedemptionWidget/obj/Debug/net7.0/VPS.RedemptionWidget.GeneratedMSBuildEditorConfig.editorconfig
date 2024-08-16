@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VPS.RedemptionWidget
+build_property.RootNamespace = VPS.RedemptionWidget
+build_property.ProjectDir = C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.RedemptionWidget\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.RedemptionWidget
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Con_Gentian.Strana/AppData/Roaming/SonarLint for Visual Studio/Bindings/VPS/csharp/SonarLint.xml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/Home/Premium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVtaXVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/Shared/_ValidationScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Con_Gentian.Strana/Desktop/V_P_S/VPS/VPS.RedemptionWidget/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <UserSecretsId>407f2945-952e-4566-a378-f025bd17c32e</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VPS.API\VPS.API.csproj" />
+    <ProjectReference Include="..\VPS.Domain\VPS.Domain.csproj" />
+    <ProjectReference Include="..\VPS.Helpers\VPS.Helpers.csproj" />
+    <ProjectReference Include="..\VPS.Infrastructure\VPS.Infrastructure.csproj" />
+    <ProjectReference Include="..\VPS.Services\VPS.Services.csproj" />
+  </ItemGroup>
+
+</Project>

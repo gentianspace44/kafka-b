@@ -1,0 +1,25 @@
+
+<ng-container *ngIf="isAuthenticated(); else loginLink">
+<mat-toolbar color="primary">
+    <mat-toolbar-row class="menu-bar">
+      <!-- Menu items -->
+      <a mat-button routerLink="/">TUV Control Center</a>
+      <a mat-raised-button color="accent" routerLink="/">Home</a>
+        <a mat-raised-button color="accent" routerLink="/admin/voucherproviders">Voucher Provider Management</a>
+        <a  mat-raised-button color="accent" routerLink="/admin/alertsconfig">Alert Management</a>
+        <a  mat-raised-button color="accent" (click)="Logout()">Logout</a>
+  
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+</ng-container>
+  <ng-template #loginLink>
+        
+  </ng-template>
+<div class="isAuthenticated() ? 'container':''">
+
+  <div>
+      <router-outlet></router-outlet>
+  </div>
+</div>
+<app-loader></app-loader>

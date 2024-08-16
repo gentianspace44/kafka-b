@@ -1,0 +1,182 @@
+﻿@using VPS.Domain.Models.Common
+@using VPS.Domain.Models.Configurations
+@using VPS.Domain.Models.Configurations.VRWConfiguration
+@model VPS.Domain.Models.VRW.Voucher.VrwViewModel
+@{
+    string displayName = string.Empty;
+    string devicePlatform = Model.DevicePlatform ?? "currentmob";
+    bool isCurrentWeb = devicePlatform.Equals("currentweb", StringComparison.InvariantCultureIgnoreCase);
+    bool isNewWeb = devicePlatform.Equals("newweb", StringComparison.InvariantCultureIgnoreCase);
+    bool Premium = devicePlatform.Equals("premium", StringComparison.InvariantCultureIgnoreCase); 
+    bool isNewMob = devicePlatform.Equals("newmob", StringComparison.InvariantCultureIgnoreCase);
+
+    string voucherendpoint = string.Empty;
+    string voucherlengths = string.Empty;
+}
+@inject Microsoft.Extensions.Options.IOptions<VpsControlCenterEndpoints> _vpsControlCenterEndpoints
+
+
+<head>
+    <title>Voucher Redemption Widget</title>
+    <link href="~/css/IndexCSS.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+
+</head>
+
+<div id="react-root"></div>
+<article class="provider-container">
+    <span class="alert-danger rounded-0 text-light text-center mb-0 float-left w-100 font-weight-bold" role="alert"></span>
+    <span class="alert-success rounded-0 text-light text-center mb-0 float-left w-100 font-weight-bold" role="alert"></span>
+
+    <div id="frmVoucher">
+        <section class="py-2" aria-label="Voucher Providers">
+            <h2 class="text-center">@(Premium ? "" : "Voucher Provider")</h2>
+
+            @if (!isCurrentWeb && !isNewWeb)
+            {
+                <small class="text-center text-muted mb-0 d-block">
+                    <span>Click <button type="button" name="answer" value="ToggleHelpText" class="btn-link" data-toggle="modal" data-target="#toggleHelp"> here </button> for help on finding your provider</span>
+                </small>
+            }
+            @if (Premium)
+            {
+                @Html.PartialAsync("Premium").Result
+            }else
+            {
+                <div class="row m-0 my-3">
+                    @foreach (var enablerForProvider in Model.VouchersEnablers)
+                    {
+                        var item = enablerForProvider.ImageSource;
+                        displayName = enablerForProvider.Name;
+                        voucherendpoint = enablerForProvider.MicroServiceUrl;
+                        voucherlengths = enablerForProvider.VoucherLength;
+                        var tmpId = Guid.NewGuid();
+
+                        if (enablerForProvider.IsVisible)
+                        {
+                            if (isNewMob)
+                            {
+                                <label class="btn btn-light mob-ui-btn text-center rounded-0 py-3 btnProvider col btn-provider @(item == enablerForProvider.ImageSource && !Model.DefaultVoucherProvider ? "active" : "") initial-label">
+                                    <input type="radio" name="selectedProvider" value="@displayName" data-syxvouchercreditingendpoint="@voucherendpoint" data-voucherlength="@voucherlengths" style="display:none;" />
+                                    <span class="mob-ui">
+                                        <img src="@(!string.IsNullOrWhiteSpace(item) ? item : "")" class="img-fluid height-specific btn-img provider-icon" alt="@displayName">
+                                        <img src="~/Images/check-circle.svg" class="svg-color checkmark-icon" alt="check" style="display:none;position: absolute; top: 0; right: 0; width: 20px; height: 20px;" />
+                                    </span>
+                                    @displayName
+                                </label>
+                            }
+                            else
+                            {
+                                <label id="@tmpId" value="@(item)" class="btn btn-light rounded-0 py-3 btnProvider col @(item == enablerForProvider.ImageSource && !Model.DefaultVoucherProvider ? "selected-provider" : "")  btn-provider @(item == enablerForProvider.ImageSource && !Model.DefaultVoucherProvider ? "active" : "")"
+                                type="button">
+                                    <input for="@tmpId" type="radio" name="selectedProvider" value="@displayName" data-syxvouchercreditingendpoint="@voucherendpoint" data-voucherlength="@voucherlengths" style="display:none;" />
+
+                                    <img src="@(!string.IsNullOrWhiteSpace(item) ? item : "")" class="img-fluid height-specific @((isNewWeb && enablerForProvider.InvertImage) ? "invert-image": "")" alt="@displayName"> @displayName
+                                </label>
+                            }
+                        }
+                    }
+                </div>
+            }
+
+            <input id="ClientId" name="ClientId" value="@Model.ClientId" class="form-control" type="hidden" />
+            <input id="DevicePlatform" name="DevicePlatform" value="@Model.DevicePlatform" class="form-control" type="hidden" />
+            <input id="HasVoucherProvider" name="HasVoucherProvider" value="@Model.HasVoucherProvider" class="form-control" type="hidden" />
+            <input id="ToggleHelpText" name="ToggleHelpText" value="@Model.ToggleHelpText" class="form-control" type="hidden" />
+            <input id="VouchersEnablers" name="VouchersEnablers" value="@Model.VouchersEnablers" class="form-control" type="hidden">
+            <input id="VoucherName" name="VoucherName" value="@Model.VoucherName" class="form-control" type="hidden" />
+            <input id="SyxVoucherCreditingEndPoint" name="SyxVoucherCreditingEndPoint" value=" @Model.SyxVoucherCreditingEndPoint" class="form-control" type="hidden" />
+            <input id="VoucherNumberLength" name="VoucherNumberLength" value="@Model.VoucherNumberLength" class="form-control" type="hidden" />
+            <input id="SignalRConnectionId" name="SignalRConnectionId" value="@Model.SignalRConnectionId" class="form-control" type="hidden" />
+
+             
+            <div class="custom-control custom-checkbox text-center text-muted ml-md-0 ml-3 mr-0">
+                <input asp-for="DefaultVoucherProvider" class="custom-control-input" />
+                <label asp-for="DefaultVoucherProvider" class="custom-control-label"></label>
+            </div>
+            <h4 class="text-dark text-center custom-font--size custom-font--color mt-3">Enter the voucher number below:</h4>
+            <div class="input-group mb-3">
+                <label asp-for="VoucherNumber" class="control-label d-none"></label>
+                <input asp-for="VoucherNumber" style=@(Premium?"background-color:white":"") placeholder=@(Premium?"Enter the voucher number":"") class="form-control" type="text" aria-describedby="btnSubmit" />
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-success" id="btnSubmit">
+                        <div id="spinner">
+                            <span class="loader"></span>
+                        </div>
+                        <span id="submitButton">
+                            Submit
+                        </span>
+                    </button>
+                 
+                </div>
+                <br>
+                <br>
+
+                <span id="responseMessage" class=" rounded-0 text-light text-center mb-0 float-left w-100 p-2 hide"></span>
+              
+            </div>
+
+
+            <div class="modal fade" id="toggleHelp" tabindex="-1" aria-labelledby="toggleHelpModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-scrollable modal-xl">
+                    <div class="modal-content rounded-0 border-0 bg-transparent text-light">
+                        <div class="modal-body modal-body::-webkit-scrollbar" data-dismiss="modal">
+                            <div>
+                                <button class="close-button" aria-label="Close alert" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div>
+                                <h3 class="my-4">HOW TO CHOOSE YOUR PROVIDER.</h3>
+                                <p class="text-muted">If your voucher says <span>HollyTopUp</span> and has the <span>below picture</span> on it, please select <span>HollyTopUp</span>.</p>
+                                <div style="border-bottom: 2px solid #8066E9; margin-bottom: 30px; padding-bottom: 20px;">
+                                    <p class="text-center"><img src="~/Images/97bc5022-826f-4f14-80e4-a7ad89419d5c_purple-hwb-star.png" class="img-fluid" alt="htu"></p>
+                                </div>
+                                <p class="text-muted">If your voucher says <span>EasyLoad</span> and has the <span>below picture</span> on it, please select <span>EasyLoad</span>.</p>
+                                <div class="text-center"
+                                     style="border-bottom: 2px solid #8066E9; margin-bottom: 30px; padding-bottom: 25px;">
+                                    <img src="~/Images/ae6952ee-531e-4220-bd05-7591d17a8cfc_easyload-dark.png" class="img-fluid" alt="easyload">
+                                </div>
+
+                                <p class="text-muted">If your voucher says <span>OTT</span> and has the <span>below picture</span> on it, please select <span>OTT</span>.</p>
+                                <div class="text-center"
+                                     style="border-bottom: 2px solid #8066E9; margin-bottom: 30px;padding-bottom: 25px;">
+                                    <img src="~/Images/8a94d946-b451-445b-8758-0fcb24dd2429_ott-logo.png" class="img-fluid" alt="ott">
+                                </div>
+
+                                <div style="border-bottom: 2px solid #8066E9; margin-bottom: 30px;padding-bottom: 20px;">
+                                    <p class="text-muted">If your voucher says <span>Flash</span> and has the <span>below picture</span> on it, please select <span>Flash</span>.</p>
+                                    <p class="text-center"><img src="~/Images/5c9fef75-72e0-4e90-9f43-0b5ff0613070_flash-icon.png" class="img-fluid" alt="flash"></p>
+                                </div>
+
+                                <div style="border-bottom: 2px solid #8066E9; margin-bottom: 30px;padding-bottom: 20px;">
+                                    <p class="text-muted">If your voucher says <span>Blu Voucher</span> and has the <span>below picture</span> on it, please select <span>Blu Voucher</span>.</p>
+                                    <p class="text-center"><img src="~/Images/59d8ae74-1371-4e6d-9d49-8d6be1189902_blu-voucher-logo.png" class="img-fluid" alt="bluvoucher"></p>
+                                </div>
+
+                                <div>
+                                    <p class="text-muted">If your voucher says <span>R & A Cellular</span> and has the <span>below picture</span> on it, please select <span>R & A Cellular</span>.</p>
+                                    <p class="text-center"><img src="~/Images/60a0c6e5-ba16-4daa-a455-622eaec6cb23-randa-cellular-logo.png" class="img-fluid" alt="randa"></p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
+
+<body>
+
+    <!-- Example container element in an MVC view -->
+    <div id="angular-root"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/HomeindexJS.js" asp-append-version="true"></script>
+    <script>
+        $.fn.StartWidget('@(_vpsControlCenterEndpoints.Value.BaseEndpoint)'); //get from config
+    </script>
+</body>

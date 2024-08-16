@@ -1,0 +1,13 @@
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\bin\Debug\net7.0\VPS.Domain.deps.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\bin\Debug\net7.0\VPS.Domain.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\bin\Debug\net7.0\VPS.Domain.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.csproj.AssemblyReference.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.AssemblyInfoInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.AssemblyInfo.cs
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.sourcelink.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\refint\VPS.Domain.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\VPS.Domain.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Domain\obj\Debug\net7.0\ref\VPS.Domain.dll

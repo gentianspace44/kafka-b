@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yKdtW9tlwa7IIyIxjywB6ObljCdtbkono/q7EEawIJs=",
+  "Source": "VPS.Provider.Flash",
+  "BasePath": "_content/VPS.Provider.Flash",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

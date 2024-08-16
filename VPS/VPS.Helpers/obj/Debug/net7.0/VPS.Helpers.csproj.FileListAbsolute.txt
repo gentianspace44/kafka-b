@@ -1,0 +1,16 @@
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\bin\Debug\net7.0\VPS.Helpers.deps.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\bin\Debug\net7.0\VPS.Helpers.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\bin\Debug\net7.0\VPS.Helpers.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\bin\Debug\net7.0\VPS.Domain.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\bin\Debug\net7.0\VPS.Domain.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.csproj.AssemblyReference.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.AssemblyInfoInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.AssemblyInfo.cs
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.sourcelink.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\refint\VPS.Helpers.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Helpers.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\ref\VPS.Helpers.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS\VPS.Helpers\obj\Debug\net7.0\VPS.Help.64DEC996.Up2Date

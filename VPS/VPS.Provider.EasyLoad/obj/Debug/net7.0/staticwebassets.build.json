@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BtlWzpgt33Chpy8ZZahmN3PUNsLJKOFkLeOd2BQsRwg=",
+  "Source": "VPS.Provider.EasyLoad",
+  "BasePath": "_content/VPS.Provider.EasyLoad",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

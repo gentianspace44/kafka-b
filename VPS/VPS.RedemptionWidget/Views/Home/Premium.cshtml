@@ -1,0 +1,37 @@
+﻿@using VPS.Domain.Models.Common
+@using VPS.Domain.Models.Configurations
+@using VPS.Domain.Models.Configurations.VRWConfiguration
+@model VPS.Domain.Models.VRW.Voucher.VrwViewModel
+@{
+    string displayName = string.Empty;
+    string voucherendpoint = string.Empty;
+    string voucherlengths = string.Empty;
+
+
+}
+
+<link rel="stylesheet" href="~/css/Premium.css" />
+
+<div class="row">
+    @foreach (var enablerForProvider in Model.VouchersEnablers)
+    {
+        var item = enablerForProvider.ImageSource;
+        displayName = enablerForProvider.Name;
+        voucherendpoint = enablerForProvider.MicroServiceUrl;
+        voucherlengths = enablerForProvider.VoucherLength;
+
+        @if (enablerForProvider.IsVisible)
+        {
+            <div class="col-6">
+                <div class="premium-button">
+                    <button value="@(item)" class="btn btnProvider btn-prov premium-btn" type="button">
+                        <input type="radio" name="selectedProvider" value="@displayName" data-syxvouchercreditingendpoint="@voucherendpoint" data-voucherlength="@voucherlengths" style="display:none;" />
+
+                        <img src="@(!string.IsNullOrWhiteSpace(item) ? item : "")" class="img-fluid" alt="@displayName" />
+                    </button>
+                </div>
+            </div>
+        }
+    }
+
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\VPS.Provider.BluVoucher.props" />
+</Project>

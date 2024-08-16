@@ -1,0 +1,96 @@
+
+<div class="mat-elevation-z8">
+
+
+  <button mat-button color="primary" (click)="saveAll()">Save All</button>
+    <table mat-table [dataSource]="data" class="mat-table">
+      <!-- Column definitions -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let element">
+
+          <mat-form-field  class="mat-large-col">
+            <mat-label>Input</mat-label>
+            <input matInput [(ngModel)]="element.name" >
+          </mat-form-field>
+     
+        </td>
+      </ng-container>
+  
+  
+      <ng-container matColumnDef="Enable">
+        <th mat-header-cell *matHeaderCellDef>Is Enabled</th>
+        <td mat-cell *matCellDef="let element"  class="mat-small-col"> 
+
+          <mat-checkbox [(ngModel)]="element.isEnabled"></mat-checkbox>
+        </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="Visible">
+        <th mat-header-cell *matHeaderCellDef>Is Visible</th>
+        <td mat-cell *matCellDef="let element"  class="mat-small-col">
+
+          <mat-checkbox [(ngModel)]="element.isVisible"></mat-checkbox>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="UseSxyCreditEndPoint">
+        <th mat-header-cell *matHeaderCellDef>Use Sxy Credit EndPoint</th>
+        <td mat-cell *matCellDef="let element"  class="mat-small-col"> 
+
+          <mat-checkbox [(ngModel)]="element.useSxyCreditEndPoint"></mat-checkbox>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Length">
+        <th mat-header-cell *matHeaderCellDef>Length</th>
+
+        <td mat-cell *matCellDef="let element" class="mat-small-col">
+
+          <mat-form-field >
+            <mat-label>{{element.name}} voucher pin length</mat-label>
+            <input matInput [(ngModel)]="element.voucherType.voucherLength" >
+          </mat-form-field>
+        </td>
+      </ng-container>
+
+  
+      <ng-container matColumnDef="MicroServiceUrl">
+        <th mat-header-cell *matHeaderCellDef >Micro Service URL</th>
+
+        <td mat-cell *matCellDef="let element" >
+
+          <mat-form-field class="mat-large-col">
+            <mat-label>{{element.name}} redemption url</mat-label>
+            <input matInput [(ngModel)]="element.microServiceUrl">
+          </mat-form-field>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="SyxCreditServiceUrl">
+        <th mat-header-cell *matHeaderCellDef >Syx Credit Service URL</th>
+
+        <td mat-cell *matCellDef="let element" >
+
+          <mat-form-field class="mat-large-col">
+            <mat-label>{{element.name}} redemption url</mat-label>
+            <input matInput [(ngModel)]="element.syxCreditServiceUrl">
+          </mat-form-field>
+        </td>
+      </ng-container>
+  
+  
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Actions</th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-icon-button (click)="saveChanges(element)">
+            <mat-icon>save</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+  

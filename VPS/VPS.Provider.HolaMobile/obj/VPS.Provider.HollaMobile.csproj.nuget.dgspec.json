@@ -1,0 +1,567 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Provider.HolaMobile\\VPS.Provider.HollaMobile.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj",
+        "projectName": "VPS.API",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj",
+        "projectName": "VPS.Domain",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj",
+        "projectName": "VPS.Helpers",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj",
+        "projectName": "VPS.Infrastructure",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Provider.HolaMobile\\VPS.Provider.HollaMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Provider.HolaMobile\\VPS.Provider.HollaMobile.csproj",
+        "projectName": "VPS.Provider.HollaMobile",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Provider.HolaMobile\\VPS.Provider.HollaMobile.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Provider.HolaMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\VPS.Services.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\VPS.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\VPS.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\VPS.Services.csproj",
+        "projectName": "VPS.Services",
+        "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\VPS.Services.csproj",
+        "packagesPath": "C:\\Users\\Con_Gentian.Strana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Con_Gentian.Strana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.API\\VPS.API.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Domain\\VPS.Domain.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Helpers\\VPS.Helpers.csproj"
+              },
+              "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.Infrastructure\\VPS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Intercom.Dotnet.Client": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Serilog.Sinks.Grafana.Loki": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "prometheus-net.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

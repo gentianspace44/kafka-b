@@ -1,0 +1,277 @@
+﻿
+a {
+    text-decoration: underline;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+.w-33 {
+    width: 33px;
+}
+
+.white-filter {
+    filter: brightness(0) invert(1);
+}
+
+#btnSubmit {
+    height: max-content;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.mob-light-theme .height-specific {
+    margin: auto;
+    display: block;
+}
+
+.btn-primary {
+    background-color: #633d94;
+    border-color: #5c2b90;
+    color: #fff;
+}
+
+    .btn-primary:hover,
+    .btn-primary:active {
+        background-color: #5c2b90;
+        border-color: #5c2b90;
+    }
+
+.img-fluid {
+    max-width: 100%;
+    height: 45px !important;
+}
+
+.mob-light-theme .custom-checkbox .custom-control-label::before {
+    border-radius: 50%;
+}
+
+.mob-light-theme .provider-container {
+    border-radius: 8px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #633d94 !important;
+    border-color: #633d94 !important;
+}
+
+.alert-danger {
+    background: linear-gradient(0deg, #bf403c, #d8504c);
+    line-height: 1.1;
+}
+
+.alert-success {
+    background: linear-gradient(0deg, #1e7e34, #28a745);
+    line-height: 1.1;
+}
+
+h4.custom-font--size {
+    font-size: 1rem;
+}
+
+.provider-container {
+    max-width: 600px;
+    margin: .25rem auto 10px auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff 45%, #dcdcdc 100%);
+    border: 1px solid #ccc;
+}
+.modal-open .modal {
+    background: transparent;
+    opacity: 1;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.provider-container .modal-content {
+    padding: 43px;
+    padding-right: 55px;
+    margin-bottom: 54px;
+    margin-top: 14px;
+}
+
+.btn-link {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+@media(max-width: 490px) {
+    .provider-container .btn.btn-light {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 406px) {
+    .provider-container .btn.btn-light {
+        font-size: 3vw;
+    }
+}
+
+.provider-container .btn.btn-light:hover {
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+}
+
+.provider-container h4.custom-font--color {
+    color: #333;
+}
+
+.provider-container .btn.btn-light {
+    background: #efefef;
+    background: linear-gradient(0deg, #efefef 0%, #ffffff 100%);
+    transition: background 0.2s ease-in-out;
+}
+
+.provider-container button.btn.btn-light.rounded-0.py-3:hover {
+    background: #efefef;
+    background: linear-gradient(0deg, #dedede 0%, #ffffff 100%);
+    transition: background 0.2s ease-in-out;
+}
+
+.provider-container .btn.btn-light:focus,
+.provider-container .btn.btn-light:active:focus {
+    box-shadow: none !important;
+}
+
+.provider-container button.btn.btn-light.rounded-0.py-3.active {
+    background: #efefef;
+    background: linear-gradient(0deg, #dedede 0%, #ffffff 100%);
+}
+
+.provider-container .custom-cotrol .custom-checkbox > label {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+
+@media (max-width: 335px) {
+    .provider-container .btn.btn-light {
+        padding: .375rem 0.6rem;
+    }
+
+    .provider-container .custom-control.custom-checkbox {
+        text-align: left !important;
+    }
+}
+
+/* WEBSITE DARK */
+.web-dark-theme {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+    .web-dark-theme .height-specific {
+        width: 50px;
+    }
+
+    .web-dark-theme .provider-container .btn.btn-light:last-child img {
+        width: 90px;
+    }
+
+
+    .web-dark-theme .container {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+        .web-dark-theme .container .pb-3 {
+            padding-bottom: 0 !important;
+        }
+
+    .web-dark-theme .provider-container {
+        border-color: #2b2b2b;
+        background: #2b2b2b;
+        max-width: 100%;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+        .web-dark-theme .provider-container section.py-2 {
+            padding: 0 !important;
+        }
+
+            .web-dark-theme .provider-container section.py-2 .input-group.mb-3 {
+                margin-bottom: 0px !important;
+            }
+
+        .web-dark-theme .provider-container .btn.btn-light {
+            background: #1e1e1e;
+            border-color: #2b2b2b;
+            color: #fff;
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+
+.invert-image {
+    filter: brightness(0) invert(1);
+}
+
+        .web-dark-theme .provider-container .text-muted,
+        .web-dark-theme .provider-container h4.text-dark.custom-font--color {
+            color: #c5c5c5 !important;
+        }
+
+        .web-dark-theme .provider-container .input-group.mb-3 input {
+            border-color: #343a40;
+            background: #1e1e1e;
+            color: #fff;
+        }
+
+    .web-dark-theme small.text-center.text-muted.mb-0.d-block {
+        display: none !important;
+        visibility: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: absolute;
+        left: -9999999999px;
+        top: -9999999999px;
+    }
+
+    .web-dark-theme .provider-container h4.text-dark.custom-font--color,
+    .web-dark-theme .custom-control.custom-checkbox.text-center.text-muted.ml-md-0.ml-3.mr-0,
+    .web-dark-theme h2.text-center {
+        text-align: left !important;
+    }
+
+    .web-dark-theme .btn-success {
+        background-color: #633d94;
+        border-color: #5c2b90;
+        color: #fff;
+    }
+
+        .web-dark-theme .btn-success:hover,
+        .web-dark-theme .btn-success:active.web-dark-theme .btn-success:focus:active,
+        .web-dark-theme .btn-success:not(:disabled):not(.disabled).active,
+        .web-dark-theme .btn-success:not(:disabled):not(.disabled):active,
+        .web-dark-theme .show > .btn-success.dropdown-toggle {
+            background-color: #5c2b90 !important;
+            border-color: #5c2b90 !important;
+        }
+
+    .web-dark-theme .provider-container button.btn.btn-light.rounded-0.py-3:hover,
+    .web-dark-theme .provider-container button.btn.btn-light.rounded-0.py-3.active {
+        background: #633d94;
+        color: #fff;
+        transition: background 0.2s ease-in-out;
+    }
+
+
+@media (max-width: 1200px) {
+    .web-dark-theme .container {
+        max-width: 100%;
+    }
+}
+
+/* END WEBSITE DARK */

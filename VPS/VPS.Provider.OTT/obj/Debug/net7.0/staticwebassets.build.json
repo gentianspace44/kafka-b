@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DvsqK3biPRD8mlkesTMdP7fgDisoc6oZLFCgOQVhotI=",
+  "Source": "VPS.Provider.OTT",
+  "BasePath": "_content/VPS.Provider.OTT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

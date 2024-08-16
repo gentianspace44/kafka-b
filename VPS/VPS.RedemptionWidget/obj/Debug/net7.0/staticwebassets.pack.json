@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\1ForYou-icon.svg",
+      "PackagePath": "staticwebassets\\Images\\1ForYou-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\1Voucher-logo.png",
+      "PackagePath": "staticwebassets\\Images\\1Voucher-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\59d8ae74-1371-4e6d-9d49-8d6be1189902_blu-voucher-logo.png",
+      "PackagePath": "staticwebassets\\Images\\59d8ae74-1371-4e6d-9d49-8d6be1189902_blu-voucher-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\5c9fef75-72e0-4e90-9f43-0b5ff0613070_flash-icon.png",
+      "PackagePath": "staticwebassets\\Images\\5c9fef75-72e0-4e90-9f43-0b5ff0613070_flash-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\60a0c6e5-ba16-4daa-a455-622eaec6cb23-randa-cellular-logo.png",
+      "PackagePath": "staticwebassets\\Images\\60a0c6e5-ba16-4daa-a455-622eaec6cb23-randa-cellular-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\8a94d946-b451-445b-8758-0fcb24dd2429_ott-logo.png",
+      "PackagePath": "staticwebassets\\Images\\8a94d946-b451-445b-8758-0fcb24dd2429_ott-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\97bc5022-826f-4f14-80e4-a7ad89419d5c_purple-hwb-star.png",
+      "PackagePath": "staticwebassets\\Images\\97bc5022-826f-4f14-80e4-a7ad89419d5c_purple-hwb-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\ae6952ee-531e-4220-bd05-7591d17a8cfc_easyload-dark.png",
+      "PackagePath": "staticwebassets\\Images\\ae6952ee-531e-4220-bd05-7591d17a8cfc_easyload-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\blu-icon.png",
+      "PackagePath": "staticwebassets\\Images\\blu-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\blu-voucher-logo.png",
+      "PackagePath": "staticwebassets\\Images\\blu-voucher-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\check-circle.svg",
+      "PackagePath": "staticwebassets\\Images\\check-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\close.svg",
+      "PackagePath": "staticwebassets\\Images\\close.svg"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\easyload.png",
+      "PackagePath": "staticwebassets\\Images\\easyload.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\ott-logo.png",
+      "PackagePath": "staticwebassets\\Images\\ott-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\Images\\purple-hwb-star.png",
+      "PackagePath": "staticwebassets\\Images\\purple-hwb-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\css\\IndexCSS.css",
+      "PackagePath": "staticwebassets\\css\\IndexCSS.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\css\\Premium.css",
+      "PackagePath": "staticwebassets\\css\\Premium.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\js\\HomeindexJS.js",
+      "PackagePath": "staticwebassets\\js\\HomeindexJS.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Con_Gentian.Strana\\Desktop\\V_P_S\\VPS\\VPS.RedemptionWidget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.VPS.RedemptionWidget.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.VPS.RedemptionWidget.props",
+      "PackagePath": "build\\VPS.RedemptionWidget.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.VPS.RedemptionWidget.props",
+      "PackagePath": "buildMultiTargeting\\VPS.RedemptionWidget.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.VPS.RedemptionWidget.props",
+      "PackagePath": "buildTransitive\\VPS.RedemptionWidget.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "APLn16vbr0hbGMYI9rFQR0b88PFS1yaqQ4YnYPrez9M=",
+  "Source": "VPS.Provider.BluVoucher",
+  "BasePath": "_content/VPS.Provider.BluVoucher",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

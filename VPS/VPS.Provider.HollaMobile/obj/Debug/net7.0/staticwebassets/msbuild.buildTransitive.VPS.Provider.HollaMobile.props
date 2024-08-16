@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\VPS.Provider.HollaMobile.props" />
+</Project>

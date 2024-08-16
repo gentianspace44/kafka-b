@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VPS.Provider.BluVoucher.props" />
+</Project>

@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 20px; /* Spacing between grid items */
+  }
+  
+  .grid-item {
+    width: 100%; /* Ensure grid items take full width of the column */
+  }
+  .mat-large-col {
+    width: 100%;
+  }
+  .mat-small-col{
+    width: 100px;
+  }
+  .container{
+    padding: 10px;
+  }

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\DB\**" />
+    <Compile Remove="Models\OTT\Enums\**" />
+    <EmbeddedResource Remove="Models\DB\**" />
+    <EmbeddedResource Remove="Models\OTT\Enums\**" />
+    <None Remove="Models\DB\**" />
+    <None Remove="Models\OTT\Enums\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Common\IJsonSerializer.cs" />
+    <Compile Remove="Models\Common\JsonSerializer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+  </ItemGroup>
+
+</Project>

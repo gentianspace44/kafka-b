@@ -1,0 +1,15 @@
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\bin\Debug\net7.0\VPS.ControlCenter.Core.deps.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\bin\Debug\net7.0\VPS.ControlCenter.Core.runtimeconfig.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\bin\Debug\net7.0\VPS.ControlCenter.Core.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\bin\Debug\net7.0\VPS.ControlCenter.Core.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.csproj.AssemblyReference.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.AssemblyInfoInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.AssemblyInfo.cs
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.csproj.CoreCompileInputs.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.sourcelink.json
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\refint\VPS.ControlCenter.Core.dll
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.pdb
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\VPS.ControlCenter.Core.genruntimeconfig.cache
+C:\Users\Con_Gentian.Strana\Desktop\V_P_S\VPS.ControlCenter\VPS.ControlCenter.Core\obj\Debug\net7.0\ref\VPS.ControlCenter.Core.dll

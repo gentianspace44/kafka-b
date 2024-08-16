@@ -1,0 +1,31 @@
+<div class="loginBody login-container">
+    <div id="watermark"></div>
+    <form class="login-form" (ngSubmit)="login()">
+      <div class="logo-header">
+        <img class="logo" src="../../../../assets/watermark.png" alt="Logo">
+        <div>
+          <h1>TUV</h1>
+          <h2>Control Center</h2>
+        </div>
+      </div>
+      <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Password*</mat-label>
+        <input matInput type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+      </mat-form-field>
+      <br />
+      <button mat-raised-button color="primary" type="submit">Login</button>
+    </form> 
+    
+  </div>
+  <div id="footer">
+    <div class="container">
+        <p class="text-muted">
+            Copyright ©2014 - 2024 Betting Entertainment Technologies licensed to Hollywood Bets
+            <br>Version 2.4.3.9
+        </p>
+    </div>
+</div>

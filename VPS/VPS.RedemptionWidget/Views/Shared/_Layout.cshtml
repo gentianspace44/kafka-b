@@ -1,0 +1,45 @@
+﻿@model VPS.Domain.Models.VRW.Voucher.VrwViewModel
+@{
+
+    string devicePlatform = Model.DevicePlatform ?? "newmob";
+
+    bool isCurrentWeb = devicePlatform.Equals("currentweb", StringComparison.InvariantCultureIgnoreCase);
+    bool isNewWeb = devicePlatform.Equals("newweb", StringComparison.InvariantCultureIgnoreCase);
+    var cssClass = "";
+
+
+    if (isCurrentWeb)
+    {
+        cssClass = "web-light-theme";
+    }
+    else if (isNewWeb)
+    {
+        cssClass = "web-dark-theme";
+    }
+    else
+    {
+        cssClass = "mob-light-theme";
+    }
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hollywoodbets Redeem Voucher Widget">
+    <title>@ViewData["Title"] - BET.Voucher.Redemption.Iframe</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" asp-append-version="true" href="~/css/site.css">
+</head>
+<body class="@(cssClass)">
+    <main role="main" class="container-fluid px-1">
+        <section role="contentinfo" class="pb-3">
+            @RenderBody()
+        </section>
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

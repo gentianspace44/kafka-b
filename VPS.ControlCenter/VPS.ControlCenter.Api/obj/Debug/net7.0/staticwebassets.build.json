@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1tUqLM/6Eu+6Qa1Ql1OQrXSUey89ikAE1B3Uurgo0xk=",
+  "Source": "VPS.ControlCenter.Api",
+  "BasePath": "_content/VPS.ControlCenter.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
